@@ -2,7 +2,7 @@ import React from 'react';
 import Profile from '../../assets/assets/home.png';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
-import '.home.css';
+import "./home.css";
 const Home = () => {
   return(
      <section className="home section grid">
@@ -10,7 +10,7 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Divyanshi Sharma</span>Student
+            <span>I'm Divyanshi Sharma</span>
           </h1>
           <p className="home__description">
           I’m Divyanshi Sharma, a passionate and driven individual currently preparing for placements while actively contributing to the tech and competitive programming community. 
@@ -22,6 +22,7 @@ const Home = () => {
         </div>
          
       </div>
+      
      </section>
   )
 }
