@@ -1,7 +1,7 @@
 import React from 'react';
 import Profile from '../../assets/assets/home.png';
 import { Link } from 'react-router-dom';
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight, FaBeer } from 'react-icons/fa';
 import "./home.css";
 const Home = () => {
   return(
@@ -17,7 +17,7 @@ const Home = () => {
           As a proud member of the Competitive Programming (CP) team at Google Developer Group (GDG) and an organizer of events like HACK SPRINT, I enjoy fostering innovation and collaboration.
           </p>
           <Link to='/about' className='button'>
-             More About Me<span classname="button__icon"><FaArrowRight/></span>
+             More About Me<span className="button__icon"><FaArrowRight/></span>
           </Link>
         </div>
          

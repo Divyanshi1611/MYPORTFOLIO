@@ -102,17 +102,19 @@
 .button:hover::before{
     transform: translateX(0);
 }
-.button__icon{
-    background-color: var(--first-color);
-    position: absolute;
-    inset-block: -2px;
-    right: 0;
-    width:55px;
-    border-radius: 50%;
-    color:var(--text-white);
-    font-size: var(--large-font-size);
-    text-align: center;
-    line-height: 60px;
+.button .button--icon{
+    margin-left: 8px; /* Adjust the value as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--first-color);
+  width: 24px; /* Adjust the size as needed */
+  height: 24px; /* Adjust the size as needed */
+  border-radius: 50%;
+  color: var(--text-white);
+  font-size: var(--large-font-size);
+  text-align: center;
+  line-height: 24px; /* Adjust the size as needed */
 
 }
 
