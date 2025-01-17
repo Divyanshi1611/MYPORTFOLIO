@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Divyanshi',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Sharma',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '0 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Indian',
   },
 
   {
@@ -91,58 +91,47 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Greater Noida, India',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+82XXXXXXXXX',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'testing@mail.com',
   },
 
   {
     id: 9,
     title: 'Skype : ',
-    description: 'steve.milner',
+    description: 'Divyanshi_123',
   },
 
   {
     id: 10,
     title: 'Langages : ',
-    description: 'French, English',
+    description: 'English, Hindi'
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '0',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '12',
     title: 'Completed <br /> Projects',
   },
 
-  {
-    id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
-  },
-
-  {
-    id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
-  },
 ];
 
 export const resume = [
