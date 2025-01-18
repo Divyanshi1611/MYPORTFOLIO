@@ -13,6 +13,7 @@
     box-shadow:0 0 8px hsla(0, 0%, 0%, 0.3);
     margin-inline: auto;
    margin-top: -45px;
+   z-index:-1;
    
 
 }
@@ -46,4 +47,15 @@
     padding-top: 20px;
     line-height:2.125;
     margin-block: 16px 32px;
+}
+.color__block{
+    position:fixed;
+    height:200%;
+    width:100%;
+    background-color: var(--first-color);
+    top:-50%;
+    left:-83%;
+    transform:rotate(--15 deg);
+
+
 }

@@ -13,7 +13,7 @@ const Home = () => {
             <span>I'm Divyanshi Sharma</span>
           </h1>
           <p className="home__description">
-          I’m Divyanshi Sharma, a passionate and driven individual currently preparing for placements while actively contributing to the tech and competitive programming community. 
+          I'm Divyanshi Sharma, a passionate and driven individual currently preparing for placements while actively contributing to the tech and competitive programming community. 
           As a proud member of the Competitive Programming (CP) team at Google Developer Group (GDG) and an organizer of events like HACK SPRINT, I enjoy fostering innovation and collaboration.
           </p>
           <Link to='/about' className='button'>

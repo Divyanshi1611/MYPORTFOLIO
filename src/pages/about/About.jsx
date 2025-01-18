@@ -2,6 +2,10 @@ import React from 'react';
 import Info from '../../components/Info';
 import Stats from '../../components/Stats';
 import { FaDownload } from 'react-icons/fa';
+import "./about.css";
+import {resume} from '../../data';
+import Skills from '../../components/Skills';
+import ResumeItem from '../../components/ResumeItem';
 
 
 const about = () => {
@@ -27,6 +31,33 @@ const about = () => {
             </ul>
             
           </div>
+        </div>
+      </section>
+      <div className="seperator"></div>
+      <section className='skills'>
+        <h3 className="section__subtitle subtitle__center">
+          My Skills
+        </h3>
+        <div className="skills__container grid"></div>
+        <Skills />
+      </section>
+      <section className="resume">
+        <h3 className="section__subtitle subtitle__center">
+          Expirience and Education
+        </h3>
+        <div className="resume__container grid">
+          <div className="resume__data">
+            {resume.map((val)=>{
+              if(val.category==="expirience"){
+                return <ResumeItem key={val.id} {...val}/>
+
+
+
+              }
+            })}
+
+          </div>
+
         </div>
       </section>
     </main>
