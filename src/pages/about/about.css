@@ -67,6 +67,7 @@
 .progress__circle{
     width:120px;
     height:120px;
+    
 }
 .CircularProgressbar-path{
     stroke:var(--first-color);
