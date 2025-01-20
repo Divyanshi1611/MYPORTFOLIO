@@ -30,7 +30,7 @@
 }
 
 .stats__no{
-    color:var(--first-color);
+    color: var(--first-color);
     font-size: var(--h1-font-size);
     line-height:1.2;
 }

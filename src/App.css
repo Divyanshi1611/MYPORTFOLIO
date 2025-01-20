@@ -87,7 +87,7 @@
     text-align:center;
     margin-bottom: 70px;
 }
-.section__tile span{
+.section__title span{
     color:var(--first-color);
 }
 .button{

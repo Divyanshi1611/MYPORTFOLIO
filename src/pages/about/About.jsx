@@ -13,7 +13,7 @@ const about = () => {
     <main className="section container">
       <section className="about">
         <h2 className="section__title">
-          About<span>Me</span>
+          About <span>Me</span>
 
         </h2>
         <div className="about__container grid">
@@ -21,15 +21,16 @@ const about = () => {
             <h3 className="section__subtitle">
               Personal Infos
             </h3>
-            <div className='stats grid'>
-              <Stats/> 
-            </div>
             <ul className="info__grid-list">
               <Info />
 
 
             </ul>
             
+            <div className='stats grid'>
+              <Stats/> 
+            </div>
+           
           </div>
         </div>
       </section>
