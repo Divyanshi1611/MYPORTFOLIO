@@ -2,6 +2,10 @@ import React from 'react'
 import {skills} from '../data'
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import "../pages/about/about.css";
+
+
+
 
 const Skills = () => {
   return (

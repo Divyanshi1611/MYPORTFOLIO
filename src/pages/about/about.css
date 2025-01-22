@@ -26,6 +26,8 @@
     border: 1px solid var(--border-color);
     padding:20px 30px 25px;
     border-radius:5px;
+    float:right;
+    
 
 }
 
@@ -92,4 +94,5 @@
 
 
 }
+
 
