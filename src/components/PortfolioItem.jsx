@@ -1,5 +1,9 @@
 import React from 'react'
-import Close from '../assets/close.svg'
+const Close = new URL("../assets/close.svg", import.meta.url).href;
+
+
+
+
 
 const PortfolioItem = ({img,title,details}) => {
   return (
@@ -11,7 +15,11 @@ const PortfolioItem = ({img,title,details}) => {
         </div>
         <div className="portfolio__modal">
             <div className="portfolio__modal-content">
-                <img src={close} alt="" className="modal__close" />
+                <img src={Close} alt="" className="modal__close" />
+                <h3 className="modal__title">{title}</h3>
+                <ul className="modal__list grid">
+                  {details.map}
+                </ul>
             </div>
         </div>
     </div>

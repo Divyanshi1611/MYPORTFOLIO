@@ -1,6 +1,7 @@
 import React from 'react'
 import {portfolio} from '../../data'
-import PortfolioItem from '../components/PortfolioItem'
+import PortfolioItem from "../../components/PortfolioItem";
+
 const Portfolio = () => {
   return (
     <section className="portfolio section">
