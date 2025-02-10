@@ -1,10 +1,5 @@
 import React from 'react'
 const Close = new URL("../assets/close.svg", import.meta.url).href;
-
-
-
-
-
 const PortfolioItem = ({img,title,details}) => {
   return (
     <div className="portfolio__item">
